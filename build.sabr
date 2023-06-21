@@ -1,0 +1,13 @@
+{
+  "name": "sabr",
+  "binary": "sabr",
+  "sources": [
+    "main.cpp",
+    "Builder.cpp",
+    "Project.cpp",
+    "Spinner.cpp"
+  ],
+  "compiler": "g++",
+  "compilerFlags": "-O3",
+  "compilerFormat": "%c %s -o %o %f"
+}

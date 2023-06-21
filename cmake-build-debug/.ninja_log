@@ -1,0 +1,6 @@
+# ninja log v5
+0	763	1687317161780620423	CMakeFiles/sabr.dir/Project.cpp.o	214f8e50b68d4897
+1	788	1687317239235624205	CMakeFiles/sabr.dir/Builder.cpp.o	30fee020d5a2326b
+1359	1409	1687317349558629592	sabr	25a16de8ca89f472
+1	1359	1687317349506629590	CMakeFiles/sabr.dir/main.cpp.o	9e7fdde54c772afb
+0	9	1687317161026620386	CMakeFiles/sabr.dir/external/spinners.cpp.o	f2484fdc912d2166
