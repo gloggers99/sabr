@@ -28,7 +28,7 @@ private:
     std::string              projectBinary = "a.out";
     std::vector<std::string> projectSources = { "main.cpp" };
     std::string              projectCompiler = "g++";
-    std::string              projectCompilerFlags = "-03";
+    std::string              projectCompilerFlags = "-O3";
     std::string              projectCompilerFormat = "%c %s -o %o %f";
 
 public:
