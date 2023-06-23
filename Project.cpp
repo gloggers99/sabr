@@ -4,8 +4,13 @@
 
 #include "Project.hpp"
 
+bool Project::isBuilt() {
+    return std::filesystem::exists("./bin/" + this->projectBinary);
+}
+
 std::ostream &operator<<(std::ostream &out, const Project &project) {
     out << project.projectName << ":\n"
+              << "\tby: \"" << project.projectAuthor << "\"\n"
               << "\tprovides: \"" << project.projectBinary << "\"\n"
               << "\tsources: \n";
 

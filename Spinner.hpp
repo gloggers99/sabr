@@ -11,9 +11,6 @@
 #include <thread>
 #include <cstring>
 
-
-
-
 class Spinner
 {
 public:
